@@ -1,0 +1,11 @@
+marquee {
+    background-color: #ddd;
+  color: #0C2D48;
+  
+  }
+  img {
+    width:100%;
+    height: 500px;
+    box-shadow: 5px 8px 40px black ;
+    display: block;
+  }

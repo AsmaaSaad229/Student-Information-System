@@ -1,0 +1,58 @@
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container1 form {
+    text-align: center;
+    padding: 30px;
+    width: 25%;
+    height: 70%;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color:#fac289;
+  }
+  
+  .container1 h1 {
+    color:#f37e09;
+    padding-bottom:30px;
+    font-size:35px;
+  }
+  
+  .login-container {
+    margin-top: 5px;
+    padding: 0;
+    background-size: cover;
+}
+  
+ form  button {
+    height: 30px;
+    width: 80%;
+    background-color:black;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-top:40px;
+    color:white;
+  }
+  
+
+  a{
+      color:black;
+      margin-left:85px;
+  }
+  .forget{
+      display: flex; 
+      margin-top: 10px;
+  }
+  .input_group input{
+      font-size: 16px;
+      display: block;
+      width: 100%;
+      padding: 10px 1px;
+      border: 0;
+      border-bottom: 1px solid #747474;
+      outline: none;
+    
+  }

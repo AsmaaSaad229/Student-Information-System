@@ -1,0 +1,118 @@
+.head {
+    background-color: black;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .header1_container{
+    position: sticky;
+      top: 0;
+  }
+  .section_container header{
+    background-color: #E5AA70;
+    align-items: center;
+    text-align: center;
+    color: black;
+  }
+
+  .section_container{
+      width:20%;
+      position: relative;
+      transition: transform 0.4s ease;
+  }
+  .section_container img{
+    height: 200px;
+  }
+
+  .section_container:hover {
+    transform: translateY(10px);
+  }
+  .section_container footer button{
+    width:100%;background-color:#3C3C3C; text-align: center;color: aliceblue;
+    height: 50px;
+    font-size: 16px; 
+    font-weight: bold; 
+    text-transform: uppercase;
+  }
+  .section_container footer button:hover{background-color: black;}
+   .childrenComponent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+   }
+  .logo-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .head h2 {
+    margin: 0.5em;
+    font-size: 150%;
+    font-weight: bold;
+  }
+.headeraffairs{
+    position: sticky;
+    top: 0;
+    background-color: #E5AA70;;
+    color:black;
+    font-size: 150%;
+    font-weight: bold;
+    height:80px;
+    padding-top:2px;
+  }
+  
+  .button-section {
+    display: flex;
+  }
+  
+  .head img {
+    width: 6%;
+    height: auto;
+  }
+  
+  .head button {
+    background-color: #E5AA70;
+    align-items: center;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: center;
+    height: 30px;
+    width: 70px;
+    vertical-align: middle;
+  }
+  
+  .head button:hover {
+    background-color: #d9842f;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #E5AA70;
+    padding: 0.5em;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 1em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+  }
+  
+  nav a:hover {
+    text-decoration-line: underline;
+    text-underline-offset: 4px;
+
+    color: black;
+  }
+  
