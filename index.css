@@ -1,0 +1,322 @@
+
+.page_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+  padding: 1em;
+  width:100%;
+
+}
+
+.page_header img {
+  height: 60px;
+}
+
+.page_header h3 {
+  margin: 0;
+}
+
+.page_header div {
+  text-align: center;
+}
+
+.students {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 20px 0px 20px;
+  padding: 0;
+}
+
+.students th, .students td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.students th {
+  background-color: #f2f2f2;
+} 
+
+@media print {
+  .students {
+    margin: 90px 20px 0px 20px; 
+    page-break-before: auto;
+  }
+
+  .students th, .students td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  .students th {
+    background-color: #f2f2f2;
+  }
+}
+@media print {
+  button {
+      display: none; /* Hide the button when printing */
+  }
+}
+.grades{
+  border-collapse: collapse;
+  width: 100%;
+  page-break-before: always;
+  margin: 20px 20px 0px 20px;
+  padding: 0;
+}
+.grades th, .grades td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.grades th {
+  background-color: #f2f2f2;
+}
+h2{
+  text-align: center;
+  margin: 20px 0px 40px 0px; ;
+}
+@media print {
+  .grades {
+    margin: 90px 20px 0px 20px; 
+    page-break-before: auto;
+  }
+
+  .grades th, .students td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  .grades th {
+    background-color: #f2f2f2;
+  }
+}
+
+
+
+
+.ControlSheetContainer {
+  margin-top: 20px;
+}
+
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;/*the table body can be scrolled horizontally if it overflows the container width*/
+  max-height: 550px; /* Adjust as needed */
+}
+
+.ControlSheetTable {
+  direction: rtl;
+  border-collapse: collapse;
+  width: auto; /* Set to auto */
+  margin-top: 15px;
+}
+
+.ControlSheetTable input {
+  width: 2rem;
+  border: none;
+  font-size: 1.3rem;
+}
+
+.ControlSheetTable th,
+.ControlSheetTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.ControlSheetTable th {
+  background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
